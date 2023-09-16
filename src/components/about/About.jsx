@@ -18,7 +18,7 @@ const About = () => {
                 A passionate web developer with a background in math and physics. I've transitioned into web development due to my fascination with its dynamic nature. I'm committed to creating exceptional online experiences and am excited about the endless possibilities in this field
                 </p>
                 <a href="" download="" className="button button--flex">
-                    Download CV
+                    View my CV
                     <svg
                     class="button__icon"
                     xmlns="http://www.w3.org/2000/svg"

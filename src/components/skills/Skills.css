@@ -1,0 +1,59 @@
+.skills__container{
+    justify-content: center;
+}
+.skills__content{
+    background: var(--container-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    flex-wrap: wrap;
+    padding: 2rem 2rem 4rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 2.5px rgba(0,0,0,0.3);
+}
+.skills__ball__box{
+    display: grid;
+    place-items: center;
+    row-gap: 0.5rem;
+}
+.skills__ball{
+    width: 5rem;
+    height: 5rem;
+    background: var(--body-color);
+    border-radius: 50%;
+    box-shadow: inset 0 0 2px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills__icon{
+    font-size: 2rem;
+    color: var(--title-color);
+    animation: moveIcon 1s infinite;
+    
+}
+
+/*=============== 
+      BREAKPOINTS 
+  ===============*/
+/* For large devices */
+   
+   @media screen and (max-width: 576px) {
+    .skills__content{
+        padding: 1rem 1rem 2rem;
+    }
+    .skills__ball{
+        width: 3rem;
+        height: 3rem;
+    }
+    .skills__icon{
+        font-size: 1rem;
+    }
+   }
+   
+   /* For small devices */
+   @media screen and (max-width: 350px) {
+   
+   }
