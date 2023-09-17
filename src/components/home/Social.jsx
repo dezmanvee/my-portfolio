@@ -2,19 +2,25 @@ const Social = () => {
   return (
     <div className="home__social">
         <a 
-        href="#" 
+        href="https://www.linkedin.com/in/bamidele-ademokoya-7a4054151" 
         className="home__social-icon" target="_blank">
         <i class="uil uil-linkedin-alt"></i>
         </a>
 
         <a 
-        href="#" 
+        href="https://github.com/dezmanvee" 
         className="home__social-icon" target="_blank">
         <i class="uil uil-github-alt"></i>
         </a>
 
         <a 
-        href="#" 
+        href="https://wa.me/+2348077620522" 
+        className="home__social-icon" target="_blank">
+        <i class="uil uil-whatsapp"></i>
+        </a>
+
+        <a 
+        href="https://twitter.com/dezmanvee" 
         className="home__social-icon" target="_blank">
         <i class="uil uil-twitter-alt"></i>
         </a>
