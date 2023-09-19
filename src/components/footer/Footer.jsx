@@ -1,6 +1,10 @@
 import "./Footer.css"
 
 const Footer = () => {
+
+    //Update the copyright date every year
+    const year = new Date().getFullYear()
+    
   return (
     <footer className="footer">
         <div className="footer__container container">
@@ -16,7 +20,7 @@ const Footer = () => {
                 </li>
 
                 <li>
-                    <a href="#testimonials" className="footer__link">Testimonials</a>
+                    <a href="#skills" className="footer__link">Technologies</a>
                 </li>
             </ul>
 
@@ -53,7 +57,7 @@ const Footer = () => {
 
             <span className="footer__copy">
                 Designed and built by Bamidele <br /><br />
-                &copy;<span className="date">2023</span>
+                &copy;<span className="date">{year}</span>
             </span>
         </div>
     </footer>

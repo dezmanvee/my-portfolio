@@ -81,7 +81,8 @@
     top: -0.75rem;
     left: 1.25rem;
     font-size: var(--smaller-font-size);
-    padding: 0.25rem;
+    padding: 0.25rem 0.25rem 0rem;
+    border-radius: 5px;
     background: var(--body-color);
     z-index: 10;
 }

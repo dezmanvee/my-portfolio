@@ -1,8 +1,7 @@
 import work1 from "../../assets/1.png";
 import work2 from "../../assets/2.png";
 import work3 from "../../assets/3.png";
-import work4 from "../../assets/work4.jpg";
-import work5 from "../../assets/work5.jpg";
+
 
 
 
