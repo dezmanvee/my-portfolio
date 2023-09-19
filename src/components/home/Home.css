@@ -29,7 +29,7 @@
     color: var(--title-color-dark);
 }
 .home__img{
-    background: url('../../assets//profile-1.png') no-repeat center center/ cover;
+    background: url('../../assets//mainImage.png') no-repeat center center/ cover;
     width: 300px;
     height: 300px;
     order: 1;

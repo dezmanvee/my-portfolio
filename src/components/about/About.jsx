@@ -1,6 +1,7 @@
 import Info from "./Info"
 import "./About.css"
 import AboutImg from "../../assets/profile-1.png"
+import CV from "../../assets/Bamidele-Ademokoya.pdf"
 
 
 const About = () => {
@@ -17,7 +18,7 @@ const About = () => {
                 <p className="about__description">
                 A passionate web developer with a background in math and physics. I've transitioned into web development due to my fascination with its dynamic nature. I'm committed to creating exceptional online experiences and am excited about the endless possibilities in this field
                 </p>
-                <a href="" download="" className="button button--flex">
+                <a href={CV} download="Bamidele-Ademokoya.pdf" className="button button--flex">
                     View my CV
                     <svg
                     class="button__icon"

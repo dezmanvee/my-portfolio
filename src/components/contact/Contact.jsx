@@ -10,10 +10,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-        'YOUR_SERVICE_ID', 
-        'YOUR_TEMPLATE_ID', 
+        'service_2adzctr', 
+        'template_9x8zoax', 
         form.current, 
-        'YOUR_PUBLIC_KEY')
+        'ZdPNWuZp_WpNM4hT-')
 
       e.target.reset()
   };
@@ -76,18 +76,20 @@ const Contact = () => {
                     <div className="contact__form-div">
                         <label htmlFor="name" className="contact__form-tag">Name</label>
                         <input 
-                        type="text" 
+                        type="text"
+                        name='name' 
+                        id='name'
                         className="contact__form-input"
-                        id="name"
                         placeholder="Enter your name" />
                     </div>
 
                     <div className="contact__form-div">
                         <label htmlFor="email" className="contact__form-tag">Email</label>
                         <input 
-                        type="email" 
+                        type="email"
+                        name='email' 
                         className="contact__form-input"
-                        id="email"
+                        id='email'
                         placeholder="Enter your email" />
                     </div>
 

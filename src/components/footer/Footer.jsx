@@ -52,7 +52,8 @@ const Footer = () => {
             </div>
 
             <span className="footer__copy">
-                &copy; Designed and developed by Bamidele <span className="date">2023</span>. All rights reserved.
+                Designed and built by Bamidele <br /><br />
+                &copy;<span className="date">2023</span>
             </span>
         </div>
     </footer>
