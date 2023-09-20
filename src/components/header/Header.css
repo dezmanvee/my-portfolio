@@ -54,6 +54,7 @@ Breakpoints
     .header{
         top: initial;
         bottom: 0;
+        background: var(--title-color);
     }
     .nav{
         height: var(--header-height);
@@ -81,6 +82,9 @@ Breakpoints
     .nav__icon{
         font-size: 1.2rem;
     }
+    .uil-apps{
+        color: var(--container-color);
+    }
     .nav__close{
         position: absolute;
         font-size: 1.5rem;
@@ -100,6 +104,9 @@ Breakpoints
     .nav__close,
     .nav__toggle{
         display: block;
+    }
+    .nav__logo{
+        color: var(--container-color);
     }
  }
  /* For small devices */
