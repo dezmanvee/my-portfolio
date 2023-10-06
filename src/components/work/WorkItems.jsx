@@ -13,7 +13,7 @@ const WorkItems = (props) => {
         href={url} 
         className="work__img-container"
         >
-            <img src={image} alt={title} className="work__img" />
+            <img src={image} width={2400} height={1600} alt={title} className="work__img" />
         </a>
         <h3 className="work__title">{title}</h3>
         <div className="work__description-div">

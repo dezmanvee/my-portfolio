@@ -92,6 +92,12 @@
 .contact__form-area textarea{
     resize: none;
 }
+/* .incomplete__fields{
+    background: #ffd6d6;
+    color: #ff0000;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-2);
+} */
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

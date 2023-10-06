@@ -1,7 +1,7 @@
 import work1 from "../../assets/1.png";
 import work2 from "../../assets/2.png";
 import work3 from "../../assets/3.png";
-
+import work4 from "../../assets/4.png"
 
 
 
@@ -16,9 +16,16 @@ import work3 from "../../assets/3.png";
     {
       id: 2,
       image: work2, 
-      title: "ComeNcart",
+      title: "ComeNcarT",
       description: "An e-commerce application with product listings, and shopping cart functionality.",
       url: "https://comencart.netlify.app/"
+    },
+    {
+      id: 4,
+      image: work4, 
+      title: "Shoeplug",
+      description: "A cloned Nike landing page, expertly replicating the brand's signature design and user experience. ",
+      url: "https://shoeplug.netlify.app/"
     },
     {
       id: 3,
