@@ -26,7 +26,7 @@ const Footer = () => {
 
             <div className="footer__social">
                 <a 
-                href="https://www.linkedin.com/in/bamidele-ademokoya-7a4054151" 
+                href="https://www.linkedin.com/in/dezmanvee" 
                 className="footer__social-icon" 
                 target="_blank">
                 <i class="uil uil-linkedin-alt"></i>

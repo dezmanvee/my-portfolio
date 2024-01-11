@@ -12,7 +12,7 @@ import work5 from "../../assets/5.png";
     image: work5, 
     title: "Modern Bank App",
     description: "A sleek and modern landing page for a cutting-edge digital banking experience.",
-    url: "https:oobank.netlify.app/"
+    url: "https://oobank.netlify.app/"
   },
   {
     id: 1,
