@@ -3,10 +3,18 @@ import work2 from "../../assets/2.png";
 import work3 from "../../assets/3.png";
 import work4 from "../../assets/4.png";
 import work5 from "../../assets/5.png";
+import work6 from "../../assets/6.png";
 
 
 
  export const ProjectsData = [
+  {
+    id: 6,
+    image: work6, 
+    title: "Youtube Media",
+    description: "A responsive React JS YouTube Clone App consisting of stunning video sections and more!",
+    url: "https://ytmediaclone.netlify.app/"
+  },
   {
     id: 5,
     image: work5, 
