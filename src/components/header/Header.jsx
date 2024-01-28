@@ -17,6 +17,7 @@ const Header = () => {
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
           Bamidele
+          <div className="nav__logo__underline"></div>
         </a>
 
         <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>

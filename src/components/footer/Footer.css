@@ -11,8 +11,16 @@
 }
 .footer__title{
     text-align: center;
+}
+
+.footer__title__underline{
+    background: var(--color-accent);
+    width: 80px;
+    height: 2px;
+    margin: 0 auto;
     margin-bottom: var(--mb-2);
 }
+
 .footer__link:hover{
     color: var(--title-color-dark);
 }

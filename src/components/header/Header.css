@@ -19,6 +19,13 @@
     font-weight: var(--font-medium);
     font-size: 1.4rem;
 }
+
+.nav__logo__underline{
+    background: var(--color-accent);
+    width: 70px;
+    height: 1.5px;
+    margin: 0 auto;
+}
 .nav__list{
     display: flex;
     column-gap: 2rem;
@@ -39,7 +46,7 @@
 }
 .active-link,
 .nav__link:hover{
-    color: var(--title-color-dark);
+    color: var(--color-accent);
 }
 .scroll-header{
     box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
@@ -81,14 +88,14 @@ Breakpoints
         gap: 2rem;
     }
     .nav__icon{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
     .uil-apps{
         color: var(--container-color);
     }
     .nav__close{
         position: absolute;
-        font-size: 1.5rem;
+        font-size: 2rem;
         right: 1.3rem;
         bottom: 0.5rem;
         color: var(--title-color);
@@ -98,7 +105,7 @@ Breakpoints
         color: var(--title-color-dark);
     }
     .nav__toggle{
-        font-size: 1.1rem;
+        font-size: 1.9rem;
         cursor: pointer;
     }
     .nav__icon,
@@ -108,6 +115,9 @@ Breakpoints
     }
     .nav__logo{
         color: var(--container-color);
+    }
+    .nav__logo__underline{
+        background: var(--color-accent-light);
     }
  }
  /* For small devices */

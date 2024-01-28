@@ -36,6 +36,13 @@
     padding: 0 4rem 0 0;
     margin-bottom: var(--mb-2-5);
   }
+  .about__data .button {
+    background-color: var(--color-accent);
+  }
+  .about__data .button:hover {
+    background-color: var(--color-accent-dark);
+  }
+
 
   /*=============== 
       BREAKPOINTS 

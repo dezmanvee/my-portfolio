@@ -37,6 +37,7 @@
     justify-self: center;
     animation: profile__animate 5s ease-in-out infinite 1s;
 }
+  
 @keyframes profile__animate{
     0% {
         border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
@@ -62,7 +63,7 @@
     height: 1px;
     left: 0;
     top: 1rem;
-    background-color: var(--text-color);
+    background-color: var(--color-accent);
 }
 .home__description{
     max-width: 400px;

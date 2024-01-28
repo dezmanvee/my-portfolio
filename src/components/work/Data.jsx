@@ -23,6 +23,13 @@ import work6 from "../../assets/6.png";
     url: "https://oobank.netlify.app/"
   },
   {
+    id: 3,
+    image: work3, 
+    title: "Medly",
+    description: "MedlyConnect: Secure Medical Chat App with Authentication and SMS Notifications.",
+    url: "https://medlyapp.netlify.app/"
+  },
+  {
     id: 1,
     image: work1,
     title: "ToDo App",
@@ -42,13 +49,6 @@ import work6 from "../../assets/6.png";
     title: "Shoeplug",
     description: "A cloned Nike landing page, expertly replicating the brand's signature design and user experience.",
     url: "https://shoeplug.netlify.app/"
-  },
-  {
-    id: 3,
-    image: work3, 
-    title: "AdminPro",
-    description: "A static dashboard that provides snapshot insights for informed decision-making within dataset.",
-    url: "https://adminpro-dashboard.netlify.app/"
   },
 ];
 

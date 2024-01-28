@@ -33,7 +33,7 @@
     font-size: var(--small-font-size);
 }
 .work__button{
-    color: var(--title-color);
+    color: var(--color-accent);
     font-size: var(--smaller-font-size);
     display: flex;
     align-items: center;
