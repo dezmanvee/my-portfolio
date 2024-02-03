@@ -105,7 +105,7 @@ Breakpoints
         color: var(--title-color-dark);
     }
     .nav__toggle{
-        font-size: 1.9rem;
+        font-size: 1.6rem;
         cursor: pointer;
     }
     .nav__icon,
