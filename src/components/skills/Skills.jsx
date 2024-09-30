@@ -1,4 +1,4 @@
-import Balls from "./Balls"
+// import Balls from "./Balls"
 import "./Skills.css"
 
 const Skills = () => {
