@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    background-color: #fff;
 }
 .nav{
     height: calc(var(--header-height) + 1.5rem);
@@ -16,8 +16,8 @@
 .nav__logo,
 .nav__toggle{
     color: var(--title-color);
-    font-weight: var(--font-medium);
-    font-size: 1.4rem;
+    font-weight: var(--font-semi-bold);
+    font-size: 1rem;
 }
 
 .nav__logo__underline{

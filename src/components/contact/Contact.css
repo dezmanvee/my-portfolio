@@ -3,17 +3,32 @@
     justify-content: center;
     column-gap: 6rem;
     padding-bottom: 3rem;
+    background: var(--container-color);
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.contact{
+    width: 100%;
+    background: var(--container-color);
+  }
+  
 .contact__title{
-    text-align: center;
-    font-size: var(--h3-font-size);
-    font-weight: var(--font-medium);
+    text-align: left;
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-top: 2rem;
     margin-bottom: var(--mb-1-5);
+    color: var(--title-color-dark);
 }
 .contact__info{
-    display: grid;
-    row-gap: 1rem;
-    grid-template-columns: 300px;
+    display: flex;
+    gap: 1rem;
+    /* grid-template-columns: repeat(3, minmax(300px, 1fr)); */
+    flex-wrap: wrap;
 }
 
 .contact__card{
@@ -22,10 +37,11 @@
     padding: 1rem;
     border-radius: 0.75rem;
     text-align: center;
+    min-width: 300px;
 }
 .contact__card-icon{
     font-size: 2rem;
-    color: var(--title-color);
+    color: var(--color-accent);
     margin-bottom: var(--mb-0-25);
 }
 .contact__card-title,
@@ -119,6 +135,9 @@
     .contact__form{
         margin: 0 auto;
     }
+    .contact__title{
+        text-align: center;
+    }
   }
   
   @media screen and (max-width: 576px) {
@@ -128,6 +147,7 @@
     .contact__form{
         width: 100%;
     }
+    
   }
   
   /* For small devices */

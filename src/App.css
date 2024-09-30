@@ -12,10 +12,10 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --color-accent: hsl(234, 100%, 66%);
-  --color-accent-light: hsl(234, 100%, 78%);
-  --color-accent-dark: hsl(234, 100%, 62%);
+  --body-color: hsl(var(--hue), var(--sat), 95%);
+  --color-accent: #0f766e;
+  --color-accent-light: #14b8a6;
+  --color-accent-dark: #115e59;
   --container-color: #fff;
 
   /*========== Font and typography ==========*/

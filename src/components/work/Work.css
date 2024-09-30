@@ -3,6 +3,10 @@
     justify-content: center;
     gap: 3rem;
 }
+
+.work {
+    padding: 6rem 2rem;
+}
 .work__card{
     padding: 1rem;
     border: 1px solid rgba(0,0,0,0.1);
@@ -25,12 +29,16 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
+    
 }
 .work__description-div{
     margin-bottom: 1rem;
 }
 .work__description{
-    font-size: var(--small-font-size);
+    /* font-size: var(--small-font-size); */
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--title-color-dark)
 }
 .work__button{
     color: var(--color-accent);

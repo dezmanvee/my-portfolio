@@ -5,14 +5,14 @@ const Info = () => {
         <i class='bx bx-award about__icon'></i>
 
             <h3 className="about__title">Interest</h3>
-            <span className="about__subtitle">Coding & Math</span>
+            <span className="about__subtitle">Programming</span>
         </div>
 
         <div className="about__box">
         <i class='bx bx-briefcase-alt-2 about__icon' ></i>
 
             <h3 className="about__title">Completed</h3>
-            <span className="about__subtitle">15+ Projects</span>
+            <span className="about__subtitle">Many Projects</span>
         </div>
 
         <div className="about__box">

@@ -1,17 +1,36 @@
 .skills__container{
     justify-content: center;
+    margin-top: 0 !important;
 }
 .skills__content{
-    background: var(--container-color);
+  
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 90vw;
     flex-wrap: wrap;
-    padding: 2rem 2rem 4rem;
-    gap: 1rem;
+    padding-bottom: 4rem;
+    gap: 1.4rem;
     border-radius: 1rem;
-    box-shadow: 0 0 2.5px rgba(0,0,0,0.3);
+  
+}
+.tech__stack__ctn{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 2rem 1rem 2rem 0; */
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.skills__head{
+    text-align: left;
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color-dark);
+    text-transform: uppercase;
+
+}
+.skills__content li img:hover{
+    transition: all 0.3s ease-in-out;
 }
 .skills__ball__box{
     display: grid;
@@ -50,6 +69,9 @@
     }
     .skills__icon{
         font-size: 1rem;
+    }
+    .skills__head{
+        text-align: center;
     }
    }
    

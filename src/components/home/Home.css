@@ -1,5 +1,5 @@
 .home__container{
-    row-gap: 7rem;
+    row-gap: 5rem;
 }
 .home__content{
     grid-template-columns: 116px repeat(2, 1fr);
@@ -11,11 +11,7 @@
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
 }
-.home__hand{
-    width: 38px;
-    height: 38px;
-    margin-left: 0.4rem;
-}
+
 .home__social{
     display: grid;
     grid-template-columns: max-content;
@@ -29,11 +25,11 @@
     color: var(--title-color-dark);
 }
 .home__img{
-    background: url('../../assets//mainImage.png') no-repeat center center/ cover;
+    background: url('../../assets/OfficialPix.png') no-repeat center center/ cover;
     width: 300px;
     height: 300px;
     order: 1;
-    box-shadow: inset   0 0 0 2px rgba(0,0,0,0.3);
+    box-shadow: inset   0 0 0 2px rgba(0,0,0,0.8);
     justify-self: center;
     animation: profile__animate 5s ease-in-out infinite 1s;
 }
@@ -51,10 +47,15 @@
 }
 .home__subtitle{
     position: relative;
-    font-size: var(--h3-font-size);
+    font-size: var(--h4-font-size);
     padding-left: 5.4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
+}
+.home__waving{
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-left: 0.4rem;
 }
 .home__subtitle::before{
     content: '';
@@ -70,7 +71,8 @@
     margin-bottom: var(--mb-3);
 }
 .home__scroll{
-    margin-left: 9.25rem;
+    /* margin-left: 9.25rem; */
+    justify-self: flex-end;
 }
 .wheel{
     animation: scroll 2s ease infinite;
@@ -84,7 +86,7 @@
     }
 }
 .home__scroll-name{
-    color: var(--color-accent);
+    color: var(--title-color-dark);
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
     margin-left: 2px;
@@ -92,7 +94,7 @@
 }
 .home__scroll-arrow{
     font-size: 1.5rem;
-    color: var(--color-accent)
+    color: var(--title-color-dark)
 }
 
 /*=============== BREAKPOINTS ===============*/
