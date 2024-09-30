@@ -1,9 +1,18 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
   const form = useRef();
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % 3); // Cycle through 0, 1, 2
+    }, 4000); // 4 seconds for each container
+
+    return () => clearInterval(interval); // Clean up on unmount
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,6 +27,7 @@ const Contact = () => {
 
     e.target.reset();
   };
+
   return (
     <section className="contact" id="contact">
       
@@ -26,7 +36,10 @@ const Contact = () => {
           <h3 className="contact__title">Get in Touch to Discuss New Opportunities  👇</h3>
           <div className="contact__title">
             <div className="contact__info">
-              <div className="contact__card">
+              <div className="contact__card first">
+                <div className={`light ${currentIndex === 0 ? "animating" : ""}`}>
+                  
+                </div>
                 <i className="bx bx-mail-send contact__card-icon"></i>
 
                 <h3 className="contact__card-title">Email</h3>
@@ -42,7 +55,10 @@ const Contact = () => {
                 </a>
               </div>
 
-              <div className="contact__card">
+              <div className="contact__card second">
+              <div className={`light ${currentIndex === 1 ? "animating" : ""}`}>
+              
+              </div>
                 <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                 <h3 className="contact__card-title">WhatApp</h3>
@@ -58,7 +74,10 @@ const Contact = () => {
                 </a>
               </div>
 
-              <div className="contact__card">
+              <div className="contact__card third">
+              <div className={`light ${currentIndex === 2 ? "animating" : ""}`}>
+              
+              </div>
                 <i className="bx bxl-telegram contact__card-icon"></i>
 
                 <h3 className="contact__card-title">Telegram</h3>

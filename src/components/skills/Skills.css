@@ -29,9 +29,14 @@
     text-transform: uppercase;
 
 }
-.skills__content li img:hover{
+
+.skills__content li img{
     transition: all 0.3s ease-in-out;
 }
+.skills__content li img:hover{
+    transform: scale(1.2);
+}
+
 .skills__ball__box{
     display: grid;
     place-items: center;

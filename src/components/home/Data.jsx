@@ -61,7 +61,7 @@ const Data = () => {
         </h3>
       
         <a href="#contact"  className="button button--flex">
-            Let's connect
+            Get in touch
             <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
