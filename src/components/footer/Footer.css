@@ -55,6 +55,9 @@
     color: var(--container-color);
     font-size: var(--small-font-size);
 }
+.footer__love{
+    color: red;
+}
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
 
             <span className="footer__copy">
-                Designed and built by Bamidele <br /><br />
+            Built with <span className="footer__love">❤</span> by Bamidele <br /><br />
                 &copy;<span className="date">{year}</span>
             </span>
         </div>
